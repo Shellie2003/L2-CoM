@@ -1,0 +1,133 @@
+/* Styles de base */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(29, 14, 116);
+  }
+  
+  /* Styles de l'en-tête */
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 30px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header nav li {
+    margin: 0 10px;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Styles de la section de héros */
+  .hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .hero h2 {
+    margin: 0;
+    font-size: 50px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background-color: white;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /*
+  /* Styles de la section des services */
+.services {
+    background-color: white;
+    padding: 40px;
+  }
+  
+  .services h2 {
+    margin-top: 0;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .services ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: bisque;
+  }
+  
+  .services li {
+    width: 30%;
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .services li h3 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  .services li p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Styles du pied de page */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  
